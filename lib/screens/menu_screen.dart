@@ -1,0 +1,27 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:cinema_g/screens/login_screen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+
+class MenuScreen extends StatefulWidget {
+  const MenuScreen({Key? key}) : super(key: key);
+
+  @override
+  State<MenuScreen> createState() => _MenuScreenState();
+}
+
+class _MenuScreenState extends State<MenuScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(child: MaterialButton(
+        onPressed: () {
+          FirebaseAuth.instance.signOut();
+        },
+        color: Colors.redAccent,
+        child: Text('Sign Out'),
+      )),
+    );
+  }
+}

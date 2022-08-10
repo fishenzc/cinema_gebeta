@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "662986730777",
+    "project_id": "cinema-gebeta",
+    "storage_bucket": "cinema-gebeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662986730777:android:895b6a3f2584fa4ceee988",
+        "android_client_info": {
+          "package_name": "com.example.cinema_g"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662986730777-rollp837q66c5n1o3mqv9uiiff3pps08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs98L2aFc-OT5KPlHnhTc7zH0LrtOcFXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662986730777-rollp837q66c5n1o3mqv9uiiff3pps08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
